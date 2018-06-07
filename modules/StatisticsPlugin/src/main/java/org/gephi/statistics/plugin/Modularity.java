@@ -702,6 +702,8 @@ public class Modularity implements Statistics, LongTask {
 
         return report;
     }
+    public ReportData getReport(){
+    }
 
     private double q(int node, Community community, CommunityStructure theStructure, double currentResolution) {
         Float edgesToFloat = theStructure.nodeConnectionsWeight[node].get(community);

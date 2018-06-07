@@ -344,6 +344,8 @@ public class Hits implements Statistics, LongTask {
 
         return report;
     }
+    public ReportData getReport(){
+    }
 
     /**
      *

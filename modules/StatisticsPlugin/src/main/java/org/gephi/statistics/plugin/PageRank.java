@@ -434,6 +434,8 @@ public class PageRank implements Statistics, LongTask {
         return report;
 
     }
+     public ReportData getReport(){
+     }
 
     /**
      *

@@ -696,6 +696,7 @@ public class ClusteringCoefficient implements Statistics, LongTask {
                 dist.put(d, 1);
             }
         }
+    
 
         //Distribution series
         XYSeries dSeries = ChartUtils.createXYSeries(dist, "Clustering Coefficient");
@@ -745,6 +746,9 @@ public class ClusteringCoefficient implements Statistics, LongTask {
                     + "Matthieu Latapy, <i>Main-memory Triangle Computations for Very Large (Sparse (Power-Law)) Graphs</i>, in Theoretical Computer Science (TCS) 407 (1-3), pages 458-473, 2008<br />"
                     + "</BODY> </HTML>";
         }
+    }
+    
+    public ReportData getReport(){
     }
 
     public void setDirected(boolean isDirected) {

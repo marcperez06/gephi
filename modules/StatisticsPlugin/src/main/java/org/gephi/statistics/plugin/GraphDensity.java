@@ -122,4 +122,6 @@ public class GraphDensity implements Statistics {
                 + "Density: " + f.format(density)
                 + "</BODY></HTML>";
     }
+    public ReportData getReport(){
+    }
 }

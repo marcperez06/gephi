@@ -117,6 +117,9 @@ public class DynamicNbNodes implements DynamicStatistics {
         report += "<br /><br /></BODY></HTML>";
         return report;
     }
+    
+    public ReportData getReport(){
+    }
 
     @Override
     public void loop(GraphView window, Interval interval) {

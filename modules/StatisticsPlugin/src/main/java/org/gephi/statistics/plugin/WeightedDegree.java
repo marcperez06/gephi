@@ -241,6 +241,8 @@ public class WeightedDegree implements Statistics, LongTask {
         }
         return report;
     }
+    public ReportData getReport(){
+    }
 
     public String getDirectedReport() {
         //Distribution series

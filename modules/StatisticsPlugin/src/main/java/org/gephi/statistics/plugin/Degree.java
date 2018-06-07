@@ -265,7 +265,9 @@ public class Degree implements Statistics, LongTask {
         }
         return report;
     }
-
+    public ReportData getReport(){
+    }
+    
     public String getDirectedReport() {
         //Distribution series
         XYSeries dSeries = ChartUtils.createXYSeries(degreeDist, "Degree Distribution");

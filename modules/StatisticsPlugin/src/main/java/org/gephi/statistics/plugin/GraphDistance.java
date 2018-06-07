@@ -468,6 +468,8 @@ public class GraphDistance implements Statistics, LongTask {
 
         return report;
     }
+    public ReportData getReport(){
+    }
 
     /**
      *

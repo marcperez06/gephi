@@ -374,6 +374,7 @@ public class ConnectedComponents implements Statistics, LongTask {
             }
             sizeDist.put(v, sizeDist.get(v) + 1);
         }
+       
 
         //Distribution series
         XYSeries dSeries = ChartUtils.createXYSeries(sizeDist, "Size Distribution");
@@ -412,7 +413,7 @@ public class ConnectedComponents implements Statistics, LongTask {
 
         return report;
     }
-
+    public ReportData getReport(){}
     @Override
     public boolean cancel() {
         isCanceled = true;

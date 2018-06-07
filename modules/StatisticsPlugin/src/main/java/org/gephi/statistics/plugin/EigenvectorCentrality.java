@@ -313,7 +313,10 @@ public class EigenvectorCentrality implements Statistics, LongTask {
         return report;
 
     }
-
+    
+    public ReportData getReport(){
+    }
+    
     @Override
     public boolean cancel() {
         this.isCanceled = true;

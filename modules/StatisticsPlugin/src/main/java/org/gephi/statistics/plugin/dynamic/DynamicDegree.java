@@ -175,6 +175,9 @@ public class DynamicDegree implements DynamicStatistics, LongTask {
         
         return report + "rabatperezmito" + csv;
     }
+    
+    public ReportData getReport(){
+    }
 
     @Override
     public void loop(GraphView window, Interval interval) {
