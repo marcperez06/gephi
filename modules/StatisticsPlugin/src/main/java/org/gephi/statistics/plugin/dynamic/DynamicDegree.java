@@ -133,10 +133,6 @@ public class DynamicDegree implements DynamicStatistics, LongTask {
     public String getReport() {
         //Time series
         XYSeries dSeries = ChartUtils.createXYSeries(averages, "Degree Time Series");
-        String csv = "x;y\n";
-        for (int i = 0; i < dSeries.getItems().size(); i++) {
-            csv += dSeries.getX(i) + ";" + dSeries.getY(i) + "\n";
-        }
 
         XYSeriesCollection dataset = new XYSeriesCollection();
         dataset.addSeries(dSeries);

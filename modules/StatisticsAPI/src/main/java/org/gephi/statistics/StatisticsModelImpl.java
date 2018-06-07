@@ -60,6 +60,7 @@ import org.gephi.statistics.api.StatisticsModel;
 import org.gephi.statistics.spi.Statistics;
 import org.gephi.statistics.spi.StatisticsBuilder;
 import org.gephi.statistics.spi.StatisticsUI;
+import org.gephi.statistics.ReportData;
 import org.gephi.utils.TempDirUtils;
 import org.gephi.utils.TempDirUtils.TempDir;
 import org.openide.util.Exceptions;

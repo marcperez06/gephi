@@ -41,6 +41,7 @@ Portions Copyrighted 2011 Gephi Consortium.
 */
 package org.gephi.statistics.plugin;
 
+import org.gephi.statistics.ReportData;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import org.gephi.graph.api.Graph;

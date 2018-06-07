@@ -41,6 +41,7 @@
  */
 package org.gephi.statistics.plugin;
 
+import org.gephi.statistics.ReportData;
 import java.util.HashMap;
 import java.util.Map;
 import org.gephi.graph.api.Column;

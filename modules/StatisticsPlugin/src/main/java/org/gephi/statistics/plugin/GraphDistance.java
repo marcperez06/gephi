@@ -41,6 +41,7 @@
  */
 package org.gephi.statistics.plugin;
 
+import org.gephi.statistics.ReportData;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;

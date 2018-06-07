@@ -41,6 +41,7 @@
  */
 package org.gephi.statistics.plugin;
 
+import org.gephi.statistics.ReportData;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.HashMap;

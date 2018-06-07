@@ -41,6 +41,7 @@
  */
 package org.gephi.statistics.plugin;
 
+import org.gephi.statistics.ReportData;
 import it.unimi.dsi.fastutil.objects.Object2DoubleOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
